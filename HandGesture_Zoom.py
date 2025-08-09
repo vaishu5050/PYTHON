@@ -51,7 +51,7 @@ def zoom_image(image):
 
         cv2.imshow("Image Zoom", zoomed_img_resized)
 
-        # ✅ Exit when 'b' is pressed
+        #  Exit when 'b' is pressed
         key = cv2.waitKey(1) & 0xFF
         if key == ord('b'):
             break
@@ -131,3 +131,4 @@ elif choice == '2':
         zoom_image(image)
 else:
     print("Invalid choice. Exiting...")
+
